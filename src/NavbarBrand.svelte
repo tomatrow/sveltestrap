@@ -11,6 +11,6 @@
   $: classes = clsx(className, 'navbar-brand');
 </script>
 
-<a {...props} class={classes} {href}>
+<a {...props} class={classes} on:click {href}>
   <slot />
 </a>
